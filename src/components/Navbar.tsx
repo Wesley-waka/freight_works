@@ -29,8 +29,8 @@ const Navbar = () => {
       </div>
 
       <div className="nav__links">
-        <a className="space">Services</a>
         <a className="space">About Us</a>
+        <a className="space">Services</a>
         <a className="space">Why Choose Us</a>
       </div>
 
