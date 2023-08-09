@@ -8,7 +8,6 @@ const Wrapper = styled.div`
   object-position: center;
   padding-bottom: 6rem;
   padding-top: 6rem;
-
   p {
     max-width: 60vw;
     padding-top: 5rem;
@@ -31,6 +30,7 @@ const Wrapper = styled.div`
 
 const Info = styled.div`
   background: var(--clr-grey-9);
+  // max-width: 70vw;
 
   .image {
     height: 50px;
