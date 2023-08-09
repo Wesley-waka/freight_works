@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Services = () => {
   const Wrapper = styled.div`
     padding: 2rem 0rem;
-    max-width: 60vw;
+    // max-width: 60vw;
 
     .service {
       // max-width: 90vw;
@@ -22,9 +22,6 @@ const Services = () => {
         width: 10rem;
         height: 8rem;
         display: inline-block;
-      }
-      img > *:not(:last-child) {
-        margin-right: 6rem;
       }
       .space {
         margin-right: 2rem;
@@ -69,11 +66,7 @@ const Services = () => {
           </div>
 
           <div className="service_details">
-            <img
-              className="space "
-              src="/services/drone_cargo.jpg"
-              alt="drone_parcel"
-            />
+            <img src="/services/drone_cargo.jpg" alt="drone_parcel" />
             <h4 className="service_details">Drone Parcel Delivery</h4>
           </div>
         </div>
