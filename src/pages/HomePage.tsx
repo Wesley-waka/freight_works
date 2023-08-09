@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Navbar, PageHero } from "../components";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
+      <PageHero />
     </div>
   );
 };
