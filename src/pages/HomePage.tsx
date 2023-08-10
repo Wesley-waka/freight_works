@@ -1,5 +1,7 @@
 import React from "react";
 import {
+  Footer,
+  Form,
   Navbar,
   Offers,
   PageHero,
@@ -25,6 +27,8 @@ const HomePage = () => {
         <Offers />
         <Serve />
         <Testimonials />
+        <Form />
+        <Footer />
       </IconContext.Provider>
     </div>
   );

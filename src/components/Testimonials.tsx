@@ -4,10 +4,10 @@ import styled from "styled-components";
 const Testimonials = () => {
   const Wrapper = styled.section`
     background-image: -webkit-linear-gradient(
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
       ),
-      url(/logo/Shein.png);
+      url(/hero_1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(images/back-customers.jpg);
     background-size: cover;
