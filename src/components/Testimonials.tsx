@@ -9,7 +9,7 @@ const Testimonials = () => {
       ),
       url(/hero_1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url(images/back-customers.jpg);
+      url(/hero.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

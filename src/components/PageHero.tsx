@@ -2,15 +2,28 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  background: url(/hero_1.jpg);
-  width: 100%;
-  object-fit: contain;
-  object-position: center;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  //   url(/hero.jpg);
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  height: 70vh;
+  .hero {
+    color: white;
+  }
+
   p {
     max-width: 60vw;
     padding-top: 5rem;
+    color: white;
     // padding-bottom: 3rem;
     margin-left: 7rem;
     // display: flex;
@@ -29,7 +42,7 @@ const Wrapper = styled.div`
 `;
 
 const Info = styled.div`
-  background: var(--clr-grey-9);
+  background: var(--clr-primary-3);
   // max-width: 70vw;
 
   .image {
@@ -65,15 +78,17 @@ const PageHero = () => {
   return (
     <>
       <Wrapper>
-        <p>
-          Our cargo tracking website provides you with real-time information and
-          updates on the status of your shipments. Whether you're sending goods
-          across the country or around the world, our user-friendly platform
-          ensures that you stay informed every step of the way. With
-          cutting-edge technology and seamless integration, we bring you a
-          hassle-free experience, allowing you to track your cargo with ease.
-        </p>
-        <button className="start-button">Get started</button>
+        <div className="hero">
+          <p>
+            Our cargo tracking website provides you with real-time information
+            and updates on the status of your shipments. Whether you're sending
+            goods across the country or around the world, our user-friendly
+            platform ensures that you stay informed every step of the way. With
+            cutting-edge technology and seamless integration, we bring you a
+            hassle-free experience, allowing you to track your cargo with ease.
+          </p>
+          <button className="start-button">Get started</button>
+        </div>
       </Wrapper>
       <Info>
         <div className="info-section">

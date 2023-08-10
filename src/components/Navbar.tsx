@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  background-color: var(--clr-primary-8);
+  background-color: var(--clr-primary-3);
   .navbar {
     max-width: 90vw;
     margin-left: 4rem;

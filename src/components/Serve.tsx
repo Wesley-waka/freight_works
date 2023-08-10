@@ -45,11 +45,7 @@ const Serve = () => {
           padding: 1rem 5rem;
           border-radius: 0.5rem;
           background-color: var(--clr-primary-10);
-          .color {
-            color: var(--clr-primary-5);
-            size: 2em;
-            display: inline;
-          }
+
           p {
             display: inline;
           }

@@ -1,3 +1,4 @@
+import AboutHero from "./AboutHero";
 import Footer from "./Footer";
 import Form from "./Form";
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ import Testimonials from "./Testimonials";
 export {
   Navbar,
   PageHero,
+  AboutHero,
   Services,
   Offers,
   Serve,

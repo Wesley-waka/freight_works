@@ -7,8 +7,8 @@ const Form = () => {
     max-height: 60vw;
     background-image: linear-gradient(
       to right bottom,
-      var(--clr-primary-1),
-      var(--clr-primary-2)
+      var(--clr-primary-3),
+      var(--clr-primary-3)
     );
 
     // only works for safari and chrome

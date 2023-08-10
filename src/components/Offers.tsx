@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Offers = () => {
   const Wrapper = styled.div`
-    background: var(--clr-grey-9);
+    background: var(--clr-primary-3);
     width: 100vw;
     height: 60vh;
     .header {
