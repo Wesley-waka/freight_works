@@ -6,13 +6,17 @@ const Offers = () => {
     background: var(--clr-grey-9);
     width: 100vw;
     height: 60vh;
+    .header {
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
     .offers {
       //   max-width: 90vw;
       padding: 2rem 8rem;
     }
-    span {
-      display: block;
-    }
+    // span {
+    //   display: block;
+    // }
     img {
       height: 10rem;
       //   width: 10rem;
@@ -38,7 +42,7 @@ const Offers = () => {
   return (
     <Wrapper>
       <div className="offers">
-        <h3>
+        <h3 className="header">
           Safe Reliable Logistic <span>Solution</span>
         </h3>
         <div className="offer_details">

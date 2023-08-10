@@ -5,7 +5,10 @@ const Services = () => {
   const Wrapper = styled.div`
     padding: 2rem 0rem;
     // max-width: 60vw;
-
+    .header {
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
     .service {
       // max-width: 90vw;
       padding-left: 3.5rem;
@@ -31,6 +34,7 @@ const Services = () => {
         display: flex;
         flex-direction: column;
         align-items: space-evenly;
+        text-align: center;
       }
     }
   `;
@@ -39,7 +43,9 @@ const Services = () => {
     <Wrapper>
       <div className="service">
         <div className="service_header">
-          <h3>We Provide Safe And Reliable Cargo Solutions</h3>
+          <h3 className="header">
+            We Provide Safe And Reliable Cargo Solutions
+          </h3>
         </div>
         <div className="service_logo">
           <div className="service_details">
@@ -67,7 +73,7 @@ const Services = () => {
 
           <div className="service_details">
             <img src="/services/drone_cargo.jpg" alt="drone_parcel" />
-            <h4 className="service_details">Drone Parcel Delivery</h4>
+            <h4 className="service_details">Drone Delivery</h4>
           </div>
         </div>
       </div>

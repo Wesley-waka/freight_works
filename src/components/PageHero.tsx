@@ -91,8 +91,8 @@ const PageHero = () => {
           <div className="company">
             <h5>Trusted by:</h5>
             <img className="image" src="/logo/Sony-logo.svg" alt="suzuki" />
-            <img className="image" src="/logo/weinsten.png" alt="suzuki" />
-            <img className="image" src="/logo/fast-company.svg" alt="suzuki" />
+            <img className="image" src="/logo/Plaid.svg" alt="suzuki" />
+            <img className="image" src="/logo/Puma.svg" alt="puma" />
             <img className="image" src="/logo/Shein.png" alt="suzuki" />
           </div>
         </div>
