@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, Offers, PageHero, Serve, Services } from "../components";
+import {
+  Navbar,
+  Offers,
+  PageHero,
+  Serve,
+  Services,
+  Testimonials,
+} from "../components";
 import { IconContext } from "react-icons";
 
 const HomePage = () => {
@@ -17,6 +24,7 @@ const HomePage = () => {
         <Services />
         <Offers />
         <Serve />
+        <Testimonials />
       </IconContext.Provider>
     </div>
   );
